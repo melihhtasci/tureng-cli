@@ -1,0 +1,7 @@
+C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.exe
+C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.dll
+C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.deps.json
+C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.runtimeconfig.json
+C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.pdb
+C:\GitHub\language-cli\bin\Debug\net5.0\publish\HtmlAgilityPack.dll
+C:\GitHub\language-cli\bin\Debug\net5.0\publish\McMaster.Extensions.CommandLineUtils.dll

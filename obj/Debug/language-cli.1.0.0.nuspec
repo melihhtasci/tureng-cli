@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>language-cli</id>
+    <version>1.0.0</version>
+    <authors>language-cli</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="C:\GitHub\language-cli\obj\DotnetToolSettings.xml" target="tools\net5.0\any\DotnetToolSettings.xml" />
+    <file src="C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.dll" target="tools\net5.0\any\language-cli.dll" />
+    <file src="C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.deps.json" target="tools\net5.0\any\language-cli.deps.json" />
+    <file src="C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.runtimeconfig.json" target="tools\net5.0\any\language-cli.runtimeconfig.json" />
+    <file src="C:\GitHub\language-cli\bin\Debug\net5.0\publish\language-cli.pdb" target="tools\net5.0\any\language-cli.pdb" />
+    <file src="C:\GitHub\language-cli\bin\Debug\net5.0\publish\HtmlAgilityPack.dll" target="tools\net5.0\any\HtmlAgilityPack.dll" />
+    <file src="C:\GitHub\language-cli\bin\Debug\net5.0\publish\McMaster.Extensions.CommandLineUtils.dll" target="tools\net5.0\any\McMaster.Extensions.CommandLineUtils.dll" />
+  </files>
+</package>

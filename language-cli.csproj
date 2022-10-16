@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>language_cli</RootNamespace>
+	  <PackAsTool>true</PackAsTool>
+	  <ToolCommandName>lang</ToolCommandName>
+	  <PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

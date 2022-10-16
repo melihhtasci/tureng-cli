@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/kT4GRqN2SlE/N9kBHDgaAG9Q7uWPBLMSpNHOFW+GKl7lDwaFe6ad3nbdS6jmG1DWb4Pg+XCfi+MHbI1zRKHdA==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\language-cli\\language-cli.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\melih\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\mcmaster.extensions.commandlineutils\\4.0.0\\mcmaster.extensions.commandlineutils.4.0.0.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
