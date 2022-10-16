@@ -1,6 +1,6 @@
-# language-cli
+# tureng-cli
 
-Translating word between turkish and english, maybe in other languages too. I did not develop yet.
+Translating word between turkish and english by using [tureng.com](tureng.com), maybe in other languages too. I did not develop yet.
 
 ``lang`` is default command to run. There is no other parameter except help ``--h``
 
