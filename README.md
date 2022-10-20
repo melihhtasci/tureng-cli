@@ -1,4 +1,4 @@
-# language-cli
+# tureng-cli v1.2
 
 Translating word between turkish and english, maybe in other languages too. I did not develop yet.
 
@@ -6,19 +6,27 @@ Translating word between turkish and english, maybe in other languages too. I di
 
 Just type what you want to translate. You can see examples below.
 
-<img src="https://github.com/melihhtasci/language-cli/blob/main/doc_images/help.png?raw=true" />
+I added an optional parameter for meaning of english words 
+by using **dictionaryapi.dev**. 
+I tried some sentence pattern and couldnt get answer. 
+So there is no problem if you cant get result.
+
+<img src="https://github.com/melihhtasci/tureng-cli/blob/main/doc_images/help.png?raw=true" />
 <br/>
 
-<img src="https://github.com/melihhtasci/language-cli/blob/main/doc_images/lang-1.png?raw=true" />
+<img src="https://github.com/melihhtasci/tureng-cli/blob/main/doc_images/lang-1.png?raw=true" />
 <br/>
 
-<img src="https://github.com/melihhtasci/language-cli/blob/main/doc_images/lang-2.png?raw=true" />
+<img src="https://github.com/melihhtasci/tureng-cli/blob/main/doc_images/lang-2.png?raw=true" />
 <br/>
 
-<img src="https://github.com/melihhtasci/language-cli/blob/main/doc_images/lang-3.png?raw=true" />
+<img src="https://github.com/melihhtasci/tureng-cli/blob/main/doc_images/lang-3.png?raw=true" />
 <br/>
 
-<img src="https://github.com/melihhtasci/language-cli/blob/main/doc_images/lang-4.png?raw=true" />
+<img src="https://github.com/melihhtasci/tureng-cli/blob/main/doc_images/lang-4.png?raw=true" />
+<br/>
+
+<img src="https://github.com/melihhtasci/tureng-cli/blob/main/doc_images/d-parameter.png?raw=true" />
 <br/>
 <br/>
 
@@ -39,4 +47,5 @@ Just type what you want to translate. You can see examples below.
 1. <b>McMaster.Extensions.CommandLineUtils</b>
 2. <b>HtmlAgilityPack</b>
 3. <b>[tureng.com](https://tureng.com)</b>
+3. <b>[dictionaryapi.dev](https://api.dictionaryapi.dev/api/v2/entries/en/student)</b>
 

@@ -2,13 +2,17 @@
 {
     public static class Consts
     {
-        public const string TURENG_URL = "https://tureng.com/tr/turkce-ingilizcee/";
+        public const string TURENG_URL = "https://tureng.com/tr/turkce-ingilizce/";
+        public const string DICTIONARY_API_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/";
         public const string TABLE_SELECTOR = "/html/body/div[5]/div/div[1]/table[1]";
         public const string FIRST_ROW = "/html/body/div[5]/div/div[1]/table[1]/tr[4]/td[4]/a";
         public const string FIRST_PART = "/html/body/div[5]/div/div[1]/table[1]/tr[";
         public const string SECOND_PART = "]/td[4]/a";
-        public const int COUNT_OF_WORD = 15; 
-
+        public const int COUNT_OF_WORD = 15;
+        public enum ApiType
+        {
+            TURENG, DICTIONARY_API
+        }
 
         // /html/body/div[5]/div/div[1]/table[1]/tr[4]/td[4]/a  <-- FULL XPATH of first word
 

@@ -11,6 +11,4 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.0" />
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
 </Project>

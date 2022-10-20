@@ -205,11 +205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\language-cli\\language-cli.csproj",
+      "projectUniqueName": "C:\\GitHub\\tureng-cli\\language-cli.csproj",
       "projectName": "language-cli",
-      "projectPath": "C:\\GitHub\\language-cli\\language-cli.csproj",
+      "projectPath": "C:\\GitHub\\tureng-cli\\language-cli.csproj",
       "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\language-cli\\obj\\",
+      "outputPath": "C:\\GitHub\\tureng-cli\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",

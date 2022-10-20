@@ -1,11 +1,21 @@
 ﻿using System;
 using System.Text;
+using static language_cli.Consts;
 
 namespace language_cli
 {
     public static class Helper
     {
-        public static string BuildUrl(string word) => Consts.TURENG_URL + word;
+        public static string BuildUrl(string word, ApiType types = ApiType.TURENG)
+        {
+            switch (types)
+            {
+                case ApiType.DICTIONARY_API:
+                    return Consts.DICTIONARY_API_URL + word;
+                default:
+                    return Consts.TURENG_URL + word;
+            }
+        } 
 
         public static void ParseWordListHtml(string html)
         {
@@ -82,10 +92,11 @@ namespace language_cli
         /// </summary>
         /// <param name="words"></param>
         /// <returns></returns>
-        public static string BuildWord(string[] words)
+        public static string BuildWord(string[] words, ApiType apiType = ApiType.TURENG)
         {
             StringBuilder builder = new();
-            builder.AppendJoin(" ", words);
+            string appender = apiType == ApiType.TURENG ? " " : "%20";
+            builder.AppendJoin(appender, words);
             return builder.ToString();
         }
     }
