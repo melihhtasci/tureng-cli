@@ -4,7 +4,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace language_cli
+namespace language_cli.Apis
 {
     public static class TurengApi
     {

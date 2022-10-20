@@ -2,7 +2,7 @@
   "profiles": {
     "language-cli": {
       "commandName": "Project",
-      "commandLineArgs": "mesaj kutusu"
+      "commandLineArgs": "student --d"
     }
   }
 }
