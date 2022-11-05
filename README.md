@@ -1,7 +1,6 @@
 # tureng-cli v1.2
 
-
-Translating word between turkish and english by using [tureng.com](tureng.com), maybe in other languages too. I did not develop yet.
+Translating word between turkish and english, maybe in other languages too. I did not develop yet.
 
 ``lang`` is default command to run. There is no other parameter except help ``--h``
 
@@ -50,3 +49,7 @@ So there is no problem if you cant get result.
 3. <b>[tureng.com](https://tureng.com)</b>
 3. <b>[dictionaryapi.dev](https://api.dictionaryapi.dev/api/v2/entries/en/student)</b>
 
+### Warning
+
+If you are sure the word written true and getting error that word is written wrong, probably something changed on xpath.
+Please create an issue and warn me, i will update or you can send MR too. My last update was for it... :) 
