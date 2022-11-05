@@ -31,7 +31,6 @@ namespace language_cli.Apis
             }
             catch (Exception)
             {
-                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Could not connect Tureng.com. Sorry dude :(");
             }
             

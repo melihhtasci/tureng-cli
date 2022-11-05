@@ -39,7 +39,6 @@ namespace language_cli
 
         private static void WriteWordList(HtmlAgilityPack.HtmlDocument document)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
             Console.OutputEncoding = Encoding.UTF8;
 
             WriteFirstWord(document);
@@ -63,7 +62,7 @@ namespace language_cli
             if (selectedHtml is not null)
             {
                 string innerText = selectedHtml.InnerText;
-                Console.WriteLine($"{index}. {innerText}", Console.ForegroundColor, Console.OutputEncoding);
+                Console.WriteLine($"{index}. {innerText}", Console.OutputEncoding);
                 index++;
             }
 
@@ -74,7 +73,7 @@ namespace language_cli
         {
             var firstSelectedHtml = document.DocumentNode.SelectSingleNode(Consts.FIRST_ROW);
             string text = firstSelectedHtml.InnerText;
-            Console.WriteLine($"1. {text}", Console.ForegroundColor, Console.OutputEncoding);
+            Console.WriteLine($"1. {text}", Console.OutputEncoding);
         }
 
         /// <summary>
@@ -82,8 +81,7 @@ namespace language_cli
         /// </summary>
         public static void Welcome()
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(" * Welcome Translate Lover! *", Console.ForegroundColor);
+            Console.WriteLine(" * Welcome Translate Lover! *");
         }
 
         /// <summary>
