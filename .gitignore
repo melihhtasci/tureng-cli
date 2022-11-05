@@ -4,3 +4,7 @@
 .vs/language-cli/v17/.suo
 *.cache
 *.editorconfig
+obj
+bin
+.vs
+*.v2

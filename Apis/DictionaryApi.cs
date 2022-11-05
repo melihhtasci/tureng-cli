@@ -31,7 +31,7 @@ namespace language_cli.Apis
             Meaning[] meanings = dictionaryModel.meanings;
             foreach (var meaning in meanings)
             {
-                ChangeConsoleColorBeforeAndAfterMessage(meaning.partOfSpeech.ToUpper());
+                Console.WriteLine(meaning.partOfSpeech);
                 WriteDefinitions(meaning);
                 WriteSynonyms(meaning);
             }
@@ -41,7 +41,7 @@ namespace language_cli.Apis
         {
             if (meaning.definitions is not null && meaning.definitions.Length > 0)
             {
-                ChangeConsoleColorBeforeAndAfterMessage("Definitions;");
+                Console.WriteLine("Definitions;");
                 foreach (var definition in meaning.definitions)
                 {
                     Console.WriteLine(definition.definition);
@@ -57,16 +57,9 @@ namespace language_cli.Apis
         {
             if (meaning.synonyms is not null && meaning.synonyms.Length > 0)
             {
-                ChangeConsoleColorBeforeAndAfterMessage("Synonyms; ");
+                Console.WriteLine("Synonyms; ");
                 Console.WriteLine(new StringBuilder().AppendJoin(", ", meaning.synonyms).ToString());
             }
-        }
-
-        private static void ChangeConsoleColorBeforeAndAfterMessage(string message)
-        {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine(message);
-            Console.ForegroundColor = ConsoleColor.Yellow;
         }
 
         private static void NotFindInApi()
